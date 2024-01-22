@@ -1,0 +1,411 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HotelReservationSystem
+</name>
+</assembly>
+<members>
+<member name="T:HotelReservationSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.admin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.back_ic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.back_ic1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.background7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.ic_next">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.ic_prev">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.logout__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.right_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.room_key">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.service">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HotelReservationSystem.My.Resources.Resources.travelers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:HotelReservationSystem.DashboardForm.SwitchPanels(System.Object,System.EventArgs)">
+ <summary>
+  Use for switching the tabs
+ </summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblguestsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomratesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomsstatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomtypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblstaffsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbllogsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblusersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbldiscountsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.tblstatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblauditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbltransactionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblguestsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomratesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomsstatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomtypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblstaffsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbllogsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblusersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbldiscountsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.tblstatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblauditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbltransactionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblguestsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomratesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomsstatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblroomtypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblstaffsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbllogsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblusersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbldiscountsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.tblstatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtblauditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSet.viewtbltransactionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblguestsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblroomratesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblroomsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblroomsstatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblroomtypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblstaffsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtbllogsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblusersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtbldiscountsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.tblstatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtblauditTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.viewtbltransactionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(HotelReservationSystem.hmsdbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(HotelReservationSystem.hmsdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(HotelReservationSystem.hmsdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager.UpdateAll(HotelReservationSystem.hmsdbDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:HotelReservationSystem.hmsdbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

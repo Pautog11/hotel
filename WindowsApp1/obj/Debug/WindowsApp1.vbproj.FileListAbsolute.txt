@@ -1,0 +1,128 @@
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.Loadingpage.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\WindowsApp1.exe.config
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\WindowsApp1.exe
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\WindowsApp1.pdb
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\WindowsApp1.xml
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.exe
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.xml
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.pdb
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.LoginForm.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.Dashboard.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.Reservation.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.Rooms.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.Staff.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.ReservationAdmin.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.RoomAdmin.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.StaffAdmin.resources
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\dtbaseq.mdf
+C:\Users\admin\source\repos\WindowsApp1\bin\Debug\dtbaseq_log.ldf
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.Superadmin.resources
+C:\Users\admin\source\repos\WindowsApp1\obj\Debug\WindowsApp1.admin.resources
+D:\system\New folder\systemnaminto\WindowsApp1\bin\Debug\dtbaseq.mdf
+D:\system\New folder\systemnaminto\WindowsApp1\bin\Debug\dtbaseq_log.ldf
+D:\system\New folder\systemnaminto\WindowsApp1\bin\Debug\WindowsApp1.exe.config
+D:\system\New folder\systemnaminto\WindowsApp1\bin\Debug\WindowsApp1.exe
+D:\system\New folder\systemnaminto\WindowsApp1\bin\Debug\WindowsApp1.pdb
+D:\system\New folder\systemnaminto\WindowsApp1\bin\Debug\WindowsApp1.xml
+D:\system\New folder\systemnaminto\WindowsApp1\bin\Debug\Guna.UI2.dll
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.vbproj.SuggestedBindingRedirects.cache
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.admin.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.Dashboard.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.Loadingpage.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.LoginForm.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.Reservation.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.ReservationAdmin.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.RoomAdmin.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.Rooms.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.Staff.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.StaffAdmin.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.Superadmin.resources
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.exe
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.xml
+D:\system\New folder\systemnaminto\WindowsApp1\obj\Debug\WindowsApp1.pdb
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.admin.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.Dashboard.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.DashboardForm.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.Loadingpage.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.LoginForm.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.Reservation.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.ReservationAdmin.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.RoomAdmin.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.Rooms.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.Staff.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.StaffAdmin.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.Superadmin.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.exe
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.xml
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.pdb
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\dtbaseq.mdf
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\dtbaseq_log.ldf
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\WindowsApp1.exe.config
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\WindowsApp1.exe
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\WindowsApp1.pdb
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\WindowsApp1.xml
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\Guna.UI2.dll
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\hms.mdf
+D:\SCHOOL FILES\Archive\App\WindowsApp1\bin\Debug\hms_log.ldf
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.ReservationForm.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.AddUserDialog.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.AddDiscountDialog.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.AddRoomDialog.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.AddRoomTypeDialog.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.AddStaffDialog.resources
+D:\SCHOOL FILES\Archive\App\WindowsApp1\obj\Debug\WindowsApp1.AddReservationDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\dtbaseq.mdf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\dtbaseq_log.ldf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\hms.mdf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\hms_log.ldf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\Guna.UI2.dll
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.SuggestedBindingRedirects.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe.config
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.pdb
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.xml
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.admin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Dashboard.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.DashboardForm.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddDiscountDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddReservationDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomTypeDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddStaffDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddUserDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Loadingpage.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.LoginForm.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationForm.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Resources.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Reservation.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationAdmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.RoomAdmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Rooms.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Staff.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.StaffAdmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Superadmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.exe
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.xml
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.pdb

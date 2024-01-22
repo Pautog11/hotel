@@ -1,0 +1,161 @@
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.AssemblyReference.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.SuggestedBindingRedirects.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Dashboard.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.DashboardForm.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddDiscountDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddReservationDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomTypeDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddStaffDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddUserDialog.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Loadingpage.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.LoginForm.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationForm.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Reservation.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationAdmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.RoomAdmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Rooms.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Staff.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.StaffAdmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Superadmin.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.GenerateResource.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.exe
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.xml
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.pdb
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\dtbaseq.mdf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\dtbaseq_log.ldf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\hms.mdf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\hms_log.ldf
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe.config
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.pdb
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\HotelReservationSystem.xml
+D:\system\SAMPLE\App\WindowsApp1\bin\Debug\Guna.UI2.dll
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.Resources.resources
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.CoreCompileInputs.cache
+D:\system\SAMPLE\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.CopyComplete
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\hms.mdf
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\hms_log.ldf
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe.config
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\HotelReservationSystem.pdb
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\HotelReservationSystem.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\Guna.UI2.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.AssemblyReference.cache
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.DashboardForm.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddDiscountDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddReservationDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomTypeDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddStaffDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddUserDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.LoginForm.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.Resources.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.GenerateResource.cache
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.CoreCompileInputs.cache
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.CopyComplete
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.exe
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.pdb
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.CustomCalendar.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationInfo.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\BouncyCastle.Cryptography.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\Google.Protobuf.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\K4os.Hash.xxHash.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\MySql.Data.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Buffers.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.IO.Pipelines.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Memory.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\ZstdSharp.dll
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\BouncyCastle.Cryptography.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\Google.Protobuf.pdb
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\Google.Protobuf.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\K4os.Hash.xxHash.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\MySql.Data.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Buffers.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.IO.Pipelines.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Memory.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRateDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.ExtendedDialog.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.ResInfo.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.RoomInfo.resources
+D:\SCHOOL FILES\Archive\sss\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationInfoDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\hms.mdf
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\hms_log.ldf
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe.config
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\HotelReservationSystem.exe
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\HotelReservationSystem.pdb
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\HotelReservationSystem.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\MySql.Data.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Buffers.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Memory.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\ZstdSharp.dll
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\Google.Protobuf.pdb
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\MySql.Data.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Buffers.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Memory.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.AssemblyReference.cache
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.CustomCalendar.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.DashboardForm.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddDiscountDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRateDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddReservationDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddRoomTypeDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddStaffDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.AddUserDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.ExtendedDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationInfoDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.ResInfo.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.RoomInfo.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationInfo.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.LoginForm.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.ReservationDialog.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.Resources.resources
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.GenerateResource.cache
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.CoreCompileInputs.cache
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.vbproj.CopyComplete
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.exe
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.xml
+C:\Users\Christian\OneDrive\Desktop\App\WindowsApp1\obj\Debug\HotelReservationSystem.pdb

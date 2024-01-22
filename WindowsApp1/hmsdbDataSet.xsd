@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="hmsdbDataSet" targetNamespace="http://tempuri.org/hmsdbDataSet.xsd" xmlns:mstns="http://tempuri.org/hmsdbDataSet.xsd" xmlns="http://tempuri.org/hmsdbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="hmsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hmsConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HotelReservationSystem.My.MySettings.GlobalReference.Default.hmsConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="hmsConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hmsConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HotelReservationSystem.My.MySettings.GlobalReference.Default.hmsConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblguestsTableAdapter" GeneratorDataComponentClassName="viewtblguestsTableAdapter" Name="viewtblguests" UserDataComponentName="viewtblguestsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblguests" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [FULL NAME], PHONE FROM dbo.viewtblguests</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="FULL NAME" DataSetColumn="FULL NAME" />
+              <Mapping SourceColumn="PHONE" DataSetColumn="PHONE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblroomratesTableAdapter" GeneratorDataComponentClassName="viewtblroomratesTableAdapter" Name="viewtblroomrates" UserDataComponentName="viewtblroomratesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblroomrates" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, RATE, PRICE, [ROOM TYPE] FROM dbo.viewtblroomrates</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="RATE" DataSetColumn="RATE" />
+              <Mapping SourceColumn="PRICE" DataSetColumn="PRICE" />
+              <Mapping SourceColumn="ROOM TYPE" DataSetColumn="ROOM TYPE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblroomsTableAdapter" GeneratorDataComponentClassName="viewtblroomsTableAdapter" Name="viewtblrooms" UserDataComponentName="viewtblroomsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblrooms" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [ROOM NUMBER], [ROOM TYPE] FROM dbo.viewtblrooms</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="ROOM NUMBER" DataSetColumn="ROOM NUMBER" />
+              <Mapping SourceColumn="ROOM TYPE" DataSetColumn="ROOM TYPE" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="ScalarQuery" Modifier="Public" Name="ScalarQuery" QueryType="Scalar" ScalarCallRetval="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="ScalarQuery">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT COUNT(*) FROM viewtblrooms</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblroomsstatusTableAdapter" GeneratorDataComponentClassName="viewtblroomsstatusTableAdapter" Name="viewtblroomsstatus" UserDataComponentName="viewtblroomsstatusTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblroomsstatus" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [ROOM NUMBER], [ROOM TYPE], STATUS FROM dbo.viewtblroomsstatus</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="ROOM NUMBER" DataSetColumn="ROOM NUMBER" />
+              <Mapping SourceColumn="ROOM TYPE" DataSetColumn="ROOM TYPE" />
+              <Mapping SourceColumn="STATUS" DataSetColumn="STATUS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblroomtypeTableAdapter" GeneratorDataComponentClassName="viewtblroomtypeTableAdapter" Name="viewtblroomtype" UserDataComponentName="viewtblroomtypeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblroomtype" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [ROOM TYPE] FROM dbo.viewtblroomtype</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="ROOM TYPE" DataSetColumn="ROOM TYPE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblstaffsTableAdapter" GeneratorDataComponentClassName="viewtblstaffsTableAdapter" Name="viewtblstaffs" UserDataComponentName="viewtblstaffsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblstaffs" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [STAFF CODE], [FULL NAME], PHONE, [ROOM NUMBER] FROM dbo.viewtblstaffs</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="STAFF CODE" DataSetColumn="STAFF CODE" />
+              <Mapping SourceColumn="FULL NAME" DataSetColumn="FULL NAME" />
+              <Mapping SourceColumn="PHONE" DataSetColumn="PHONE" />
+              <Mapping SourceColumn="ROOM NUMBER" DataSetColumn="ROOM NUMBER" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtbllogsTableAdapter" GeneratorDataComponentClassName="viewtbllogsTableAdapter" Name="viewtbllogs" UserDataComponentName="viewtbllogsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtbllogs" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT USERNAME, ACTION, CATEGORY, RECORD, DATE FROM dbo.viewtbllogs</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="USERNAME" DataSetColumn="USERNAME" />
+              <Mapping SourceColumn="ACTION" DataSetColumn="ACTION" />
+              <Mapping SourceColumn="CATEGORY" DataSetColumn="CATEGORY" />
+              <Mapping SourceColumn="RECORD" DataSetColumn="RECORD" />
+              <Mapping SourceColumn="DATE" DataSetColumn="DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblusersTableAdapter" GeneratorDataComponentClassName="viewtblusersTableAdapter" Name="viewtblusers" UserDataComponentName="viewtblusersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblusers" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, USERNAME, DATE FROM dbo.viewtblusers</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="USERNAME" DataSetColumn="USERNAME" />
+              <Mapping SourceColumn="DATE" DataSetColumn="DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtbldiscountsTableAdapter" GeneratorDataComponentClassName="viewtbldiscountsTableAdapter" Name="viewtbldiscounts" UserDataComponentName="viewtbldiscountsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtbldiscounts" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [DISCOUNT TYPE], VALUE, DESCRIPTION FROM dbo.viewtbldiscounts</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="DISCOUNT TYPE" DataSetColumn="DISCOUNT TYPE" />
+              <Mapping SourceColumn="VALUE" DataSetColumn="VALUE" />
+              <Mapping SourceColumn="DESCRIPTION" DataSetColumn="DESCRIPTION" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblstatusTableAdapter" GeneratorDataComponentClassName="tblstatusTableAdapter" Name="tblstatus" UserDataComponentName="tblstatusTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.tblstatus" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[tblstatus] WHERE (([id] = @Original_id) AND ([status_name] = @Original_status_name))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_status_name" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="status_name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[tblstatus] ([status_name]) VALUES (@status_name);
+SELECT id, status_name FROM tblstatus WHERE (id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@status_name" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="status_name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, status_name FROM dbo.tblstatus</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[tblstatus] SET [status_name] = @status_name WHERE (([id] = @Original_id) AND ([status_name] = @Original_status_name));
+SELECT id, status_name FROM tblstatus WHERE (id = @id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@status_name" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="status_name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_status_name" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="status_name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="id" ColumnName="id" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="status_name" DataSetColumn="status_name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtblauditTableAdapter" GeneratorDataComponentClassName="viewtblauditTableAdapter" Name="viewtblaudit" UserDataComponentName="viewtblauditTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtblaudit" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, ACCOUNT, ACTION, CATEGORY, RECORD, DATE FROM dbo.viewtblaudit</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="ACCOUNT" DataSetColumn="ACCOUNT" />
+              <Mapping SourceColumn="ACTION" DataSetColumn="ACTION" />
+              <Mapping SourceColumn="CATEGORY" DataSetColumn="CATEGORY" />
+              <Mapping SourceColumn="RECORD" DataSetColumn="RECORD" />
+              <Mapping SourceColumn="DATE" DataSetColumn="DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewtbltransactionsTableAdapter" GeneratorDataComponentClassName="viewtbltransactionsTableAdapter" Name="viewtbltransactions" UserDataComponentName="viewtbltransactionsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hmsConnectionString (MySettings)" DbObjectName="dbo.viewtbltransactions" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [INVOICE NO], [GUEST NAME], [CHECK IN], [CHECK OUT], STATUS, [TOTAL DUE], DATE FROM dbo.viewtbltransactions</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="INVOICE NO" DataSetColumn="INVOICE NO" />
+              <Mapping SourceColumn="GUEST NAME" DataSetColumn="GUEST NAME" />
+              <Mapping SourceColumn="CHECK IN" DataSetColumn="CHECK IN" />
+              <Mapping SourceColumn="CHECK OUT" DataSetColumn="CHECK OUT" />
+              <Mapping SourceColumn="STATUS" DataSetColumn="STATUS" />
+              <Mapping SourceColumn="TOTAL DUE" DataSetColumn="TOTAL DUE" />
+              <Mapping SourceColumn="DATE" DataSetColumn="DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="hmsdbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="hmsdbDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="hmsdbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viewtblguests" msprop:Generator_RowEvHandlerName="viewtblguestsRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblguestsRowDeleted" msprop:Generator_RowDeletingName="viewtblguestsRowDeleting" msprop:Generator_RowEvArgName="viewtblguestsRowChangeEvent" msprop:Generator_TablePropName="viewtblguests" msprop:Generator_RowChangedName="viewtblguestsRowChanged" msprop:Generator_UserTableName="viewtblguests" msprop:Generator_RowChangingName="viewtblguestsRowChanging" msprop:Generator_RowClassName="viewtblguestsRow" msprop:Generator_TableClassName="viewtblguestsDataTable" msprop:Generator_TableVarName="tableviewtblguests">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="FULL_x0020_NAME" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="FULL_NAMEColumn" msprop:Generator_ColumnPropNameInRow="FULL_NAME" msprop:Generator_UserColumnName="FULL NAME" msprop:Generator_ColumnVarNameInTable="columnFULL_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PHONE" msprop:Generator_ColumnPropNameInTable="PHONEColumn" msprop:Generator_ColumnPropNameInRow="PHONE" msprop:Generator_UserColumnName="PHONE" msprop:Generator_ColumnVarNameInTable="columnPHONE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtblroomrates" msprop:Generator_RowEvHandlerName="viewtblroomratesRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblroomratesRowDeleted" msprop:Generator_RowDeletingName="viewtblroomratesRowDeleting" msprop:Generator_RowEvArgName="viewtblroomratesRowChangeEvent" msprop:Generator_TablePropName="viewtblroomrates" msprop:Generator_RowChangedName="viewtblroomratesRowChanged" msprop:Generator_UserTableName="viewtblroomrates" msprop:Generator_RowChangingName="viewtblroomratesRowChanging" msprop:Generator_RowClassName="viewtblroomratesRow" msprop:Generator_TableClassName="viewtblroomratesDataTable" msprop:Generator_TableVarName="tableviewtblroomrates">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="RATE" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="RATEColumn" msprop:Generator_ColumnPropNameInRow="RATE" msprop:Generator_UserColumnName="RATE" msprop:Generator_ColumnVarNameInTable="columnRATE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="43" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_UserColumnName="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" type="xs:double" minOccurs="0" />
+              <xs:element name="ROOM_x0020_TYPE" msprop:Generator_ColumnPropNameInTable="ROOM_TYPEColumn" msprop:Generator_ColumnPropNameInRow="ROOM_TYPE" msprop:Generator_UserColumnName="ROOM TYPE" msprop:Generator_ColumnVarNameInTable="columnROOM_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtblrooms" msprop:Generator_RowEvHandlerName="viewtblroomsRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblroomsRowDeleted" msprop:Generator_RowDeletingName="viewtblroomsRowDeleting" msprop:Generator_RowEvArgName="viewtblroomsRowChangeEvent" msprop:Generator_TablePropName="viewtblrooms" msprop:Generator_RowChangedName="viewtblroomsRowChanged" msprop:Generator_UserTableName="viewtblrooms" msprop:Generator_RowChangingName="viewtblroomsRowChanging" msprop:Generator_RowClassName="viewtblroomsRow" msprop:Generator_TableClassName="viewtblroomsDataTable" msprop:Generator_TableVarName="tableviewtblrooms">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="ROOM_x0020_NUMBER" msprop:Generator_ColumnPropNameInTable="ROOM_NUMBERColumn" msprop:Generator_ColumnPropNameInRow="ROOM_NUMBER" msprop:Generator_UserColumnName="ROOM NUMBER" msprop:Generator_ColumnVarNameInTable="columnROOM_NUMBER">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ROOM_x0020_TYPE" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ROOM_TYPEColumn" msprop:Generator_ColumnPropNameInRow="ROOM_TYPE" msprop:Generator_UserColumnName="ROOM TYPE" msprop:Generator_ColumnVarNameInTable="columnROOM_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtblroomsstatus" msprop:Generator_RowEvHandlerName="viewtblroomsstatusRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblroomsstatusRowDeleted" msprop:Generator_RowDeletingName="viewtblroomsstatusRowDeleting" msprop:Generator_RowEvArgName="viewtblroomsstatusRowChangeEvent" msprop:Generator_TablePropName="viewtblroomsstatus" msprop:Generator_RowChangedName="viewtblroomsstatusRowChanged" msprop:Generator_UserTableName="viewtblroomsstatus" msprop:Generator_RowChangingName="viewtblroomsstatusRowChanging" msprop:Generator_RowClassName="viewtblroomsstatusRow" msprop:Generator_TableClassName="viewtblroomsstatusDataTable" msprop:Generator_TableVarName="tableviewtblroomsstatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="ROOM_x0020_NUMBER" msprop:Generator_ColumnPropNameInTable="ROOM_NUMBERColumn" msprop:Generator_ColumnPropNameInRow="ROOM_NUMBER" msprop:Generator_UserColumnName="ROOM NUMBER" msprop:Generator_ColumnVarNameInTable="columnROOM_NUMBER">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ROOM_x0020_TYPE" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ROOM_TYPEColumn" msprop:Generator_ColumnPropNameInRow="ROOM_TYPE" msprop:Generator_UserColumnName="ROOM TYPE" msprop:Generator_ColumnVarNameInTable="columnROOM_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_UserColumnName="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtblroomtype" msprop:Generator_RowEvHandlerName="viewtblroomtypeRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblroomtypeRowDeleted" msprop:Generator_RowDeletingName="viewtblroomtypeRowDeleting" msprop:Generator_RowEvArgName="viewtblroomtypeRowChangeEvent" msprop:Generator_TablePropName="viewtblroomtype" msprop:Generator_RowChangedName="viewtblroomtypeRowChanged" msprop:Generator_UserTableName="viewtblroomtype" msprop:Generator_RowChangingName="viewtblroomtypeRowChanging" msprop:Generator_RowClassName="viewtblroomtypeRow" msprop:Generator_TableClassName="viewtblroomtypeDataTable" msprop:Generator_TableVarName="tableviewtblroomtype">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="ROOM_x0020_TYPE" msprop:Generator_ColumnPropNameInTable="ROOM_TYPEColumn" msprop:Generator_ColumnPropNameInRow="ROOM_TYPE" msprop:Generator_UserColumnName="ROOM TYPE" msprop:Generator_ColumnVarNameInTable="columnROOM_TYPE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtblstaffs" msprop:Generator_RowEvHandlerName="viewtblstaffsRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblstaffsRowDeleted" msprop:Generator_RowDeletingName="viewtblstaffsRowDeleting" msprop:Generator_RowEvArgName="viewtblstaffsRowChangeEvent" msprop:Generator_TablePropName="viewtblstaffs" msprop:Generator_RowChangedName="viewtblstaffsRowChanged" msprop:Generator_UserTableName="viewtblstaffs" msprop:Generator_RowChangingName="viewtblstaffsRowChanging" msprop:Generator_RowClassName="viewtblstaffsRow" msprop:Generator_TableClassName="viewtblstaffsDataTable" msprop:Generator_TableVarName="tableviewtblstaffs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="STAFF_x0020_CODE" msprop:Generator_ColumnPropNameInTable="STAFF_CODEColumn" msprop:Generator_ColumnPropNameInRow="STAFF_CODE" msprop:Generator_UserColumnName="STAFF CODE" msprop:Generator_ColumnVarNameInTable="columnSTAFF_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FULL_x0020_NAME" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="FULL_NAMEColumn" msprop:Generator_ColumnPropNameInRow="FULL_NAME" msprop:Generator_UserColumnName="FULL NAME" msprop:Generator_ColumnVarNameInTable="columnFULL_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PHONE" msprop:Generator_ColumnPropNameInTable="PHONEColumn" msprop:Generator_ColumnPropNameInRow="PHONE" msprop:Generator_UserColumnName="PHONE" msprop:Generator_ColumnVarNameInTable="columnPHONE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ROOM_x0020_NUMBER" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ROOM_NUMBERColumn" msprop:Generator_ColumnPropNameInRow="ROOM_NUMBER" msprop:Generator_UserColumnName="ROOM NUMBER" msprop:Generator_ColumnVarNameInTable="columnROOM_NUMBER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtbllogs" msprop:Generator_RowEvHandlerName="viewtbllogsRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtbllogsRowDeleted" msprop:Generator_RowDeletingName="viewtbllogsRowDeleting" msprop:Generator_RowEvArgName="viewtbllogsRowChangeEvent" msprop:Generator_TablePropName="viewtbllogs" msprop:Generator_RowChangedName="viewtbllogsRowChanged" msprop:Generator_UserTableName="viewtbllogs" msprop:Generator_RowChangingName="viewtbllogsRowChanging" msprop:Generator_RowClassName="viewtbllogsRow" msprop:Generator_TableClassName="viewtbllogsDataTable" msprop:Generator_TableVarName="tableviewtbllogs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USERNAME" msprop:Generator_ColumnPropNameInTable="USERNAMEColumn" msprop:Generator_ColumnPropNameInRow="USERNAME" msprop:Generator_UserColumnName="USERNAME" msprop:Generator_ColumnVarNameInTable="columnUSERNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACTION" msprop:Generator_ColumnPropNameInTable="ACTIONColumn" msprop:Generator_ColumnPropNameInRow="ACTION" msprop:Generator_UserColumnName="ACTION" msprop:Generator_ColumnVarNameInTable="columnACTION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CATEGORY" msprop:Generator_ColumnPropNameInTable="CATEGORYColumn" msprop:Generator_ColumnPropNameInRow="CATEGORY" msprop:Generator_UserColumnName="CATEGORY" msprop:Generator_ColumnVarNameInTable="columnCATEGORY">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RECORD" msprop:Generator_ColumnPropNameInTable="RECORDColumn" msprop:Generator_ColumnPropNameInRow="RECORD" msprop:Generator_UserColumnName="RECORD" msprop:Generator_ColumnVarNameInTable="columnRECORD">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" msprop:Generator_ColumnPropNameInRow="_DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtblusers" msprop:Generator_RowEvHandlerName="viewtblusersRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblusersRowDeleted" msprop:Generator_RowDeletingName="viewtblusersRowDeleting" msprop:Generator_RowEvArgName="viewtblusersRowChangeEvent" msprop:Generator_TablePropName="viewtblusers" msprop:Generator_RowChangedName="viewtblusersRowChanged" msprop:Generator_UserTableName="viewtblusers" msprop:Generator_RowChangingName="viewtblusersRowChanging" msprop:Generator_RowClassName="viewtblusersRow" msprop:Generator_TableClassName="viewtblusersDataTable" msprop:Generator_TableVarName="tableviewtblusers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="USERNAME" msprop:Generator_ColumnPropNameInTable="USERNAMEColumn" msprop:Generator_ColumnPropNameInRow="USERNAME" msprop:Generator_UserColumnName="USERNAME" msprop:Generator_ColumnVarNameInTable="columnUSERNAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DATEColumn" msprop:Generator_ColumnPropNameInRow="_DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtbldiscounts" msprop:Generator_RowEvHandlerName="viewtbldiscountsRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtbldiscountsRowDeleted" msprop:Generator_RowDeletingName="viewtbldiscountsRowDeleting" msprop:Generator_RowEvArgName="viewtbldiscountsRowChangeEvent" msprop:Generator_TablePropName="viewtbldiscounts" msprop:Generator_RowChangedName="viewtbldiscountsRowChanged" msprop:Generator_UserTableName="viewtbldiscounts" msprop:Generator_RowChangingName="viewtbldiscountsRowChanging" msprop:Generator_RowClassName="viewtbldiscountsRow" msprop:Generator_TableClassName="viewtbldiscountsDataTable" msprop:Generator_TableVarName="tableviewtbldiscounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="DISCOUNT_x0020_TYPE" msprop:Generator_ColumnPropNameInTable="DISCOUNT_TYPEColumn" msprop:Generator_ColumnPropNameInRow="DISCOUNT_TYPE" msprop:Generator_UserColumnName="DISCOUNT TYPE" msprop:Generator_ColumnVarNameInTable="columnDISCOUNT_TYPE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VALUE" msprop:Generator_ColumnPropNameInTable="VALUEColumn" msprop:Generator_ColumnPropNameInRow="VALUE" msprop:Generator_UserColumnName="VALUE" msprop:Generator_ColumnVarNameInTable="columnVALUE" type="xs:int" />
+              <xs:element name="DESCRIPTION" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblstatus" msprop:Generator_RowEvHandlerName="tblstatusRowChangeEventHandler" msprop:Generator_RowDeletedName="tblstatusRowDeleted" msprop:Generator_RowDeletingName="tblstatusRowDeleting" msprop:Generator_RowEvArgName="tblstatusRowChangeEvent" msprop:Generator_TablePropName="tblstatus" msprop:Generator_RowChangedName="tblstatusRowChanged" msprop:Generator_UserTableName="tblstatus" msprop:Generator_RowChangingName="tblstatusRowChanging" msprop:Generator_RowClassName="tblstatusRow" msprop:Generator_TableClassName="tblstatusDataTable" msprop:Generator_TableVarName="tabletblstatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnVarNameInTable="columnid" type="xs:int" />
+              <xs:element name="status_name" msprop:Generator_ColumnPropNameInTable="status_nameColumn" msprop:Generator_ColumnPropNameInRow="status_name" msprop:Generator_UserColumnName="status_name" msprop:Generator_ColumnVarNameInTable="columnstatus_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtblaudit" msprop:Generator_RowEvHandlerName="viewtblauditRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtblauditRowDeleted" msprop:Generator_RowDeletingName="viewtblauditRowDeleting" msprop:Generator_RowEvArgName="viewtblauditRowChangeEvent" msprop:Generator_TablePropName="viewtblaudit" msprop:Generator_RowChangedName="viewtblauditRowChanged" msprop:Generator_UserTableName="viewtblaudit" msprop:Generator_RowChangingName="viewtblauditRowChanging" msprop:Generator_RowClassName="viewtblauditRow" msprop:Generator_TableClassName="viewtblauditDataTable" msprop:Generator_TableVarName="tableviewtblaudit">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="ACCOUNT" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ACCOUNTColumn" msprop:Generator_ColumnPropNameInRow="ACCOUNT" msprop:Generator_UserColumnName="ACCOUNT" msprop:Generator_ColumnVarNameInTable="columnACCOUNT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACTION" msprop:Generator_ColumnPropNameInTable="ACTIONColumn" msprop:Generator_ColumnPropNameInRow="ACTION" msprop:Generator_UserColumnName="ACTION" msprop:Generator_ColumnVarNameInTable="columnACTION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CATEGORY" msprop:Generator_ColumnPropNameInTable="CATEGORYColumn" msprop:Generator_ColumnPropNameInRow="CATEGORY" msprop:Generator_UserColumnName="CATEGORY" msprop:Generator_ColumnVarNameInTable="columnCATEGORY">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RECORD" msprop:Generator_ColumnPropNameInTable="RECORDColumn" msprop:Generator_ColumnPropNameInRow="RECORD" msprop:Generator_UserColumnName="RECORD" msprop:Generator_ColumnVarNameInTable="columnRECORD">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" msprop:Generator_ColumnPropNameInRow="_DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewtbltransactions" msprop:Generator_RowEvHandlerName="viewtbltransactionsRowChangeEventHandler" msprop:Generator_RowDeletedName="viewtbltransactionsRowDeleted" msprop:Generator_RowDeletingName="viewtbltransactionsRowDeleting" msprop:Generator_RowEvArgName="viewtbltransactionsRowChangeEvent" msprop:Generator_TablePropName="viewtbltransactions" msprop:Generator_RowChangedName="viewtbltransactionsRowChanged" msprop:Generator_RowChangingName="viewtbltransactionsRowChanging" msprop:Generator_TableClassName="viewtbltransactionsDataTable" msprop:Generator_RowClassName="viewtbltransactionsRow" msprop:Generator_TableVarName="tableviewtbltransactions" msprop:Generator_UserTableName="viewtbltransactions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="INVOICE_x0020_NO" msprop:Generator_ColumnPropNameInRow="INVOICE_NO" msprop:Generator_ColumnPropNameInTable="INVOICE_NOColumn" msprop:Generator_ColumnVarNameInTable="columnINVOICE_NO" msprop:Generator_UserColumnName="INVOICE NO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GUEST_x0020_NAME" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="GUEST_NAME" msprop:Generator_ColumnPropNameInTable="GUEST_NAMEColumn" msprop:Generator_ColumnVarNameInTable="columnGUEST_NAME" msprop:Generator_UserColumnName="GUEST NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CHECK_x0020_IN" msprop:Generator_ColumnPropNameInRow="CHECK_IN" msprop:Generator_ColumnPropNameInTable="CHECK_INColumn" msprop:Generator_ColumnVarNameInTable="columnCHECK_IN" msprop:Generator_UserColumnName="CHECK IN" type="xs:dateTime" />
+              <xs:element name="CHECK_x0020_OUT" msprop:Generator_ColumnPropNameInRow="CHECK_OUT" msprop:Generator_ColumnPropNameInTable="CHECK_OUTColumn" msprop:Generator_ColumnVarNameInTable="columnCHECK_OUT" msprop:Generator_UserColumnName="CHECK OUT" type="xs:dateTime" />
+              <xs:element name="STATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_UserColumnName="STATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTAL_x0020_DUE" msprop:Generator_ColumnPropNameInRow="TOTAL_DUE" msprop:Generator_ColumnPropNameInTable="TOTAL_DUEColumn" msprop:Generator_ColumnVarNameInTable="columnTOTAL_DUE" msprop:Generator_UserColumnName="TOTAL DUE" type="xs:double" />
+              <xs:element name="DATE" msprop:Generator_ColumnPropNameInRow="_DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_UserColumnName="DATE" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblguests" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtblroomrates_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblroomrates" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtblrooms_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblrooms" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtblroomsstatus_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblroomsstatus" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtblroomtype_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblroomtype" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtblstaffs_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblstaffs" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtblusers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblusers" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtbldiscounts_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtbldiscounts" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="tblstatus_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblstatus" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="viewtblaudit_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtblaudit" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewtbltransactions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewtbltransactions" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
